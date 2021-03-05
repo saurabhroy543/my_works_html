@@ -24,12 +24,14 @@
     font-size: 80px;
     text-align: center;
     padding-top: 50px;
-    margin-bottom: 0;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-family: 'Oswald', sans-serif;
   }
 
   .media{
 position: absolute;
+padding-top: 40px;
 top: 40%;
 left: 50%;
 transform: translate(-53% , -50%);
@@ -38,9 +40,9 @@ transform: translate(-53% , -50%);
   .container {
   background-image: url('mypic.jpg');
   background-size: auto;
-  opacity: 0.5;
+
   background-repeat: no-repeat;
-  background-blend-mode: screen;
+  background-blend-mode: lighten;
   animation: Gradient 15s ease infinite;
 
 }
@@ -50,9 +52,9 @@ transform: translate(-53% , -50%);
     margin: 10px 30px;
     display: inline-block;
     font-size: 20px;
-    padding:20px 20px;
+    padding:10px 10px;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     border-radius: 50%;
     transition: .5s;
   }
