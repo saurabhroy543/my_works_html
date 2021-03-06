@@ -45,6 +45,7 @@ transform: translate(-53% , -50%);
   .container {
   background-image: url('mypic.jpg');
   background-size: auto;
+  opacity: 0.5;
 
   background-repeat: no-repeat;
   background-blend-mode: lighten;
