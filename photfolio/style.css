@@ -16,6 +16,12 @@
       background-position: 0% 50%
     }
   }
+  #box{
+    border-style:solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+  }
 
   h1{
 
@@ -23,17 +29,16 @@
     font-weight: lighter;
     font-size: 80px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+
     font-family: 'Oswald', sans-serif;
   }
 
   .media{
-position: absolute;
-padding-top: 40px;
-top: 40%;
-left: 50%;
+position: relative;
+padding-top:0px;
+
+align-items:center;
+left: 70%;
 transform: translate(-53% , -50%);
   }
 
@@ -49,7 +54,7 @@ transform: translate(-53% , -50%);
 
   li{
     list-style: none;
-    margin: 10px 30px;
+    margin: 10px 10px;
     display: inline-block;
     font-size: 20px;
     padding:10px 10px;
@@ -61,6 +66,6 @@ transform: translate(-53% , -50%);
   li:hover{
     color:#1ea0fc;
     border: #1ea0fc;
-    transition: .5s;
+    transition: .7s;
 
   }
