@@ -85,3 +85,12 @@ ul li:nth-child(5) a{
   font-size: 24px;
   font-weight: lighter;
 }
+
+.header button{
+  color: #fff;
+  background: #0098fb;
+  padding-left: 18px 38px;
+  border: none;
+  font-size: 17px;
+  margin:4px;
+}
