@@ -4,7 +4,7 @@
     background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
     background-size:400% 400%;
     animation: Gradient 15s ease infinite;
-    
+
   }
   @-webkit-keyframes Gradient{
     0%{
@@ -43,16 +43,6 @@ left: 70%;
 transform: translate(-53% , -50%);
   }
 
-  .container {
-  background-image: url('mypic.jpg');
-  background-size: auto;
-  opacity: 0.5;
-
-  background-repeat: no-repeat;
-  background-blend-mode: lighten;
-  animation: Gradient 15s ease infinite;
-
-}
 
   li{
     list-style: none;
